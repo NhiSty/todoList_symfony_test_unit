@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67e4acb5-1b59-4039-b713-3831ae1c226f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Service/EmailSender.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/TodoList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/EmailSender/EmailSenderTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TodoList/TodoListTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/User/UserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/Item.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Item/ItemTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/EmailSender.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/EmailSender.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/TodoList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/TodoList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/User/UserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/User/UserTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,11 +193,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682347856414</updated>
-      <workItem from="1682347857476" duration="1592000" />
+      <workItem from="1682347857476" duration="10950000" />
     </task>
+    <task id="LOCAL-00001" summary="updated readme">
+      <created>1682349507126</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682349507126</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated readme" />
   </component>
 </project>
