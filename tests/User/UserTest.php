@@ -2,6 +2,7 @@
 
 namespace App\Tests\User;
 
+use App\Service\EmailSender;
 use App\Service\User;
 use Exception;
 use PHPUnit\Framework\MockObject\MockObject;
@@ -10,6 +11,7 @@ use PHPUnit\Framework\TestCase;
 class UserTest extends TestCase
 {
     private User $user;
+    private MockObject $mockEmailSender;
 
     /**
      * @throws Exception
@@ -23,6 +25,9 @@ class UserTest extends TestCase
             'Test1234',
             new \DateTime('now' . '- 13 years')
         );
+
+        $this->mockEmailSender = $this->createMock(EmailSender::class);
+        $this->mockEmailSender->method('sendEmail')->willReturn(true);
 
     }
 
@@ -140,5 +145,6 @@ class UserTest extends TestCase
 
     //TODO test the add ToDoList & ItemTest classes in /tests/Item/ItemTest.php
     // and /tests/ToDoList/ToDoListTest.php
+    // and the email action (at 8 items in the todolist, send an email)
 }
 
