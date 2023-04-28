@@ -75,13 +75,17 @@ class Item
         return true;
     }
 
-    public function isItemAdded30minutesAgo(): bool
+   public function wasTheLastItemAdded30minutesAgo(Item $newItem , Item $lastItem = null): bool
     {
-        $now = new \DateTime();
-        $interval = $now->diff($this->createdAt);
-        if ($interval->format('%i') > 30) {
+        if ($lastItem === null) {
+            return true;
+        }
+
+        $interval = $newItem->getCreatedAt()->diff($lastItem->getCreatedAt());
+        if ($interval->format('%i') < 30) {
             return false;
         }
         return true;
+
     }
 }
