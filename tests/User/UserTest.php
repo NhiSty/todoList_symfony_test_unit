@@ -11,7 +11,6 @@ use PHPUnit\Framework\TestCase;
 class UserTest extends TestCase
 {
     private User $user;
-    private MockObject $mockEmailSender;
 
     /**
      * @throws Exception
@@ -26,8 +25,6 @@ class UserTest extends TestCase
             new \DateTime('now' . '- 13 years')
         );
 
-        $this->mockEmailSender = $this->createMock(EmailSender::class);
-        $this->mockEmailSender->method('sendEmail')->willReturn(true);
 
     }
 

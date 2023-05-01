@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67e4acb5-1b59-4039-b713-3831ae1c226f" name="Changes" comment="Created all the classes and added the unitary test for the User class">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/todoList_symfony_test_unit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service/TodoList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/TodoList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Item/ItemTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Item/ItemTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/TodoList/TodoListTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TodoList/TodoListTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/User/UserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/User/UserTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -16,7 +16,7 @@ class ItemTest extends TestCase
 
     public function testisItemContentIsLesserThan1000Characters(): void
     {
-        $this->assertTrue($this->item->isItemContentIsLesserThan1000Characters($this->item->getContent()));
+        $this->assertTrue($this->item->isItemContentIsLesserThan1000Characters());
         // set content to more than 1000 characters
         $this->item->setContent('Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
         molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
@@ -49,7 +49,8 @@ class ItemTest extends TestCase
         // create an item
         $item2 = new Item('test2', 'test', new \DateTime('now'));
 
+
         // false because an item was added previously, and it was not 30 minutes ago
-        $this->assertFalse($this->item->wasTheLastItemAdded30minutesAgo($item2, $this->item));
+        $this->assertFalse($item2->wasTheLastItemAdded30minutesAgo($this->item, $item2));
     }
 }

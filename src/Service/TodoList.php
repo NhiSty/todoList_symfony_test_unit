@@ -53,6 +53,7 @@ class TodoList
         if (count($this->ToDoList) === 1) {
             return true;
         }
+        // find if the name is already in the array
         foreach ($this->ToDoList as $item) {
             if ($item->getName() === $name) {
                 return false;

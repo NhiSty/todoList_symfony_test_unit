@@ -30,12 +30,26 @@ class TodoListTest extends TestCase
 
     }
 
-    public function testisNameUnique(): void
+    public function testIsNameUnique(): void
     {
-        $todoList = new TodoList([$this->item, new Item('test2', 'test2', new \DateTime('now'))]);
-        $this->assertFalse($todoList->isItemNameUnique('test'));
+        $todoList = new TodoList();
+        // true because it's empty
+        $this->assertTrue($todoList->isItemNameUnique($this->item->getName()));
 
-        $this->assertTrue($todoList->isItemNameUnique('test2'));
+        //we add the previous item to the list
+        $todoList->addItem($this->item);
+
+        //true because the name is unique
+        $item2 = new Item('test2', 'test2', new \DateTime('now'));
+        $this->assertTrue($todoList->isItemNameUnique($item2->getName()));
+
+        // we add the new item to the list
+        $todoList->addItem($item2);
+
+        // false because the name is not unique
+        $this->assertFalse($todoList->isItemNameUnique($item2->getName()));
+        $this->assertFalse($todoList->isItemNameUnique($this->item->getName()));
+
 
     }
 
@@ -74,8 +88,7 @@ class TodoListTest extends TestCase
 
          $this->item->setName('test2');
          $value = $this->user->getTodoList()->addItem($this->item);
-         //var_dump($value, $this->user->getTodoList()->getItems());
-         //var_dump($this->user->getTodoList()->getItems());
+
          $this->assertEquals('test2', $this->user->getTodoList()->getItems()[1]->getName());
      }
 
