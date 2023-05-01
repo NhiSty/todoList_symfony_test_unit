@@ -69,4 +69,11 @@ class TodoList
         return false;
     }
 
+    public function TodoListHasEightItem(): bool
+    {
+        if (count($this->ToDoList) == 8) {
+            return true;
+        }
+        return false;
+    }
 }
