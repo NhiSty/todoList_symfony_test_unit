@@ -1,0 +1,231 @@
+Index: .idea/todo_list.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"WEB_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/spec\" isTestSource=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" packagePrefix=\"App\\\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/tests\" isTestSource=\"true\" packagePrefix=\"App\\Tests\\\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/composer\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/annotations\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/cache\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/collections\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/common\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/dbal\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/deprecations\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/doctrine-bundle\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/doctrine-migrations-bundle\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/event-manager\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/inflector\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/instantiator\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/lexer\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/migrations\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/orm\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/persistence\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/doctrine/sql-formatter\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/egulias/email-validator\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/friendsofphp/proxy-manager-lts\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/laminas/laminas-code\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/monolog/monolog\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/myclabs/deep-copy\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/nikic/php-parser\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/phar-io/manifest\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/phar-io/version\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/phpdocumentor/reflection-common\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/phpdocumentor/reflection-docblock\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/phpdocumentor/type-resolver\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/phpstan/phpdoc-parser\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/phpunit/php-code-coverage\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/phpunit/php-file-iterator\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/phpunit/php-invoker\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/phpunit/php-text-template\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/phpunit/php-timer\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/phpunit/phpunit\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/psr/cache\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/psr/container\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/psr/event-dispatcher\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/psr/link\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/psr/log\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/cli-parser\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/code-unit\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/code-unit-reverse-lookup\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/comparator\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/complexity\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/diff\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/environment\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/exporter\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/global-state\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/lines-of-code\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/object-enumerator\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/object-reflector\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/recursion-context\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/resource-operations\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/type\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sebastian/version\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/sensio/framework-extra-bundle\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/asset\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/browser-kit\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/cache\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/cache-contracts\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/config\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/console\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/css-selector\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/debug-bundle\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/dependency-injection\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/deprecation-contracts\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/doctrine-bridge\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/doctrine-messenger\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/dom-crawler\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/dotenv\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/error-handler\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/event-dispatcher\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/event-dispatcher-contracts\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/expression-language\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/filesystem\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/finder\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/flex\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/form\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/framework-bundle\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/http-client\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/http-client-contracts\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/http-foundation\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/http-kernel\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/intl\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/mailer\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/maker-bundle\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/messenger\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/mime\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/monolog-bridge\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/monolog-bundle\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/notifier\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/options-resolver\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/password-hasher\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/phpunit-bridge\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/polyfill-intl-grapheme\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/polyfill-intl-icu\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/polyfill-intl-idn\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/polyfill-intl-normalizer\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/polyfill-php81\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/process\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/property-access\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/property-info\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/routing\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/runtime\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/security-bundle\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/security-core\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/security-csrf\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/security-http\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/serializer\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/service-contracts\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/stopwatch\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/string\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/translation\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/translation-contracts\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/twig-bridge\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/twig-bundle\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/validator\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/var-dumper\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/var-exporter\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/web-link\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/web-profiler-bundle\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/symfony/yaml\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/theseer/tokenizer\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/twig/extra-bundle\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/twig/twig\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/vendor/webmozart/assert\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/todo_list.iml b/.idea/todo_list.iml
+--- a/.idea/todo_list.iml	(revision 0fdc4e5d0aafc6aad804fca6d434055a599e4df4)
++++ b/.idea/todo_list.iml	(date 1682715337348)
+@@ -5,134 +5,6 @@
+       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="App\" />
+       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="App\Tests\" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/annotations" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/cache" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/collections" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/common" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/dbal" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/deprecations" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/doctrine-bundle" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/event-manager" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/migrations" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/orm" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/persistence" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/sql-formatter" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/egulias/email-validator" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/friendsofphp/proxy-manager-lts" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-code" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/monolog/monolog" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/nikic/php-parser" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/phar-io/manifest" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/phar-io/version" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/phpdocumentor/reflection-common" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/phpdocumentor/reflection-docblock" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/phpdocumentor/type-resolver" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/phpstan/phpdoc-parser" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-code-coverage" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-file-iterator" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-invoker" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-text-template" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-timer" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/cache" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/event-dispatcher" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/link" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/cli-parser" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/code-unit" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/comparator" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/complexity" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/diff" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/environment" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/exporter" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/global-state" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/lines-of-code" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/object-enumerator" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/object-reflector" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/recursion-context" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/resource-operations" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/type" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/version" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/sensio/framework-extra-bundle" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/asset" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/browser-kit" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/cache" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/cache-contracts" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/config" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/console" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/css-selector" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/debug-bundle" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/dependency-injection" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/deprecation-contracts" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/doctrine-bridge" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/doctrine-messenger" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/dom-crawler" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/dotenv" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/error-handler" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/event-dispatcher" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/event-dispatcher-contracts" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/expression-language" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/filesystem" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/finder" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/flex" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/form" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/framework-bundle" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/http-client" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/http-client-contracts" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/http-foundation" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/http-kernel" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/intl" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/mailer" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/maker-bundle" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/messenger" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/mime" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/monolog-bridge" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/monolog-bundle" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/notifier" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/options-resolver" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/password-hasher" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/phpunit-bridge" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-intl-icu" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-intl-idn" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php81" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/process" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/property-access" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/property-info" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/routing" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/runtime" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/security-bundle" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/security-core" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/security-csrf" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/security-http" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/serializer" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/service-contracts" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/stopwatch" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/string" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/translation" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/translation-contracts" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/twig-bridge" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/twig-bundle" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/validator" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/var-dumper" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/var-exporter" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/web-link" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/web-profiler-bundle" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/yaml" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/theseer/tokenizer" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/twig/extra-bundle" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/twig/twig" />
+-      <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/assert" />
+     </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"67e4acb5-1b59-4039-b713-3831ae1c226f\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/tests/User/UserTest.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/tests/User/UserTest.php\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\" synchronizationState=\"SYNCHRONIZE\">\r\n    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>\r\n    <execution />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"PhpWorkspaceProjectConfiguration\" interpreter_name=\"C:\\php\\php.exe\">\r\n    <include_path>\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/finder\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/psr/container\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/dotenv\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/psr/log\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/yaml\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/psr/cache\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/string\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/psr/event-dispatcher\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/service-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/http-kernel\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-php81\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/framework-bundle\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/http-foundation\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/var-dumper\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/event-dispatcher\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/flex\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/console\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/composer\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/filesystem\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/error-handler\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/config\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/dependency-injection\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/var-exporter\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/cache\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/routing\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/runtime\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/deprecation-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-mbstring\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/cache-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/egulias/email-validator\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/theseer/tokenizer\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/twig/extra-bundle\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/twig/twig\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/friendsofphp/proxy-manager-lts\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/nikic/php-parser\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/php-code-coverage\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/php-file-iterator\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/php-invoker\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/php-text-template\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/php-timer\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/phpunit\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/laminas/laminas-code\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/myclabs/deep-copy\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/annotations\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/cache\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/collections\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/common\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/dbal\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/deprecations\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/doctrine-bundle\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/event-manager\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/psr/link\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/inflector\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/instantiator\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/lexer\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/migrations\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/orm\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/persistence\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/sql-formatter\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/security-bundle\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/mime\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/validator\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/monolog/monolog\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/browser-kit\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/dom-crawler\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/http-client-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/css-selector\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/property-access\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/monolog-bundle\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/options-resolver\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/doctrine-bridge\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/twig-bundle\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/doctrine-messenger\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/mailer\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/phpunit-bridge\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/security-csrf\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/expression-language\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/maker-bundle\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/security-core\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/security-http\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/web-link\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/web-profiler-bundle\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sensio/framework-extra-bundle\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/serializer\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/debug-bundle\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/notifier\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/property-info\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phar-io/manifest\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/process\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phar-io/version\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/password-hasher\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/intl\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/twig-bridge\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/http-client\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/form\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/messenger\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/translation\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/monolog-bridge\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/asset\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/translation-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/stopwatch\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpdocumentor/reflection-common\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpdocumentor/type-resolver\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/webmozart/assert\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/cli-parser\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/code-unit\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/comparator\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/complexity\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/diff\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/environment\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/exporter\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/global-state\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/lines-of-code\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/object-enumerator\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/object-reflector\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/recursion-context\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/phpstan/phpdoc-parser\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/resource-operations\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/type\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/version\" />\r\n    </include_path>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2OsSa7OlWRSf9cTOW3ytS97Lf6u\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"last_opened_file_path\": \"C:/iw/SEMESTRE 2 - 4eme anne/todo_list\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"phpunit.xml.dist\" type=\"PHPUnitRunConfigurationType\" factoryName=\"PHPUnit\">\r\n      <TestRunner scope=\"XML\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"67e4acb5-1b59-4039-b713-3831ae1c226f\" name=\"Changes\" comment=\"\" />\r\n      <created>1682347856414</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1682347856414</updated>\r\n      <workItem from=\"1682347857476\" duration=\"11606000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"updated readme\">\r\n      <created>1682349507126</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682349507126</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Created all the classes and added the unitary test for the User class\">\r\n      <created>1682359598059</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682359598059</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"updated readme\" />\r\n    <MESSAGE value=\"Created all the classes and added the unitary test for the User class\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Created all the classes and added the unitary test for the User class\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 0fdc4e5d0aafc6aad804fca6d434055a599e4df4)
++++ b/.idea/workspace.xml	(date 1682779270223)
+@@ -5,7 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="67e4acb5-1b59-4039-b713-3831ae1c226f" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/tests/User/UserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/User/UserTest.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/todo_list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/todo_list.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -159,20 +160,20 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "git-widget-placeholder": "master",
+-    "last_opened_file_path": "C:/iw/SEMESTRE 2 - 4eme anne/todo_list",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/iw/S2-4/todo_list&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RunManager">
+     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+       <TestRunner scope="XML" />
+@@ -188,6 +189,15 @@
+       <option name="presentableId" value="Default" />
+       <updated>1682347856414</updated>
+       <workItem from="1682347857476" duration="11606000" />
++      <workItem from="1682408123492" duration="7714000" />
++      <workItem from="1682509205402" duration="52000" />
++      <workItem from="1682509283896" duration="649000" />
++      <workItem from="1682574366679" duration="1779000" />
++      <workItem from="1682715333282" duration="5000" />
++      <workItem from="1682715385009" duration="485000" />
++      <workItem from="1682769564079" duration="332000" />
++      <workItem from="1682769963585" duration="29000" />
++      <workItem from="1682778616407" duration="654000" />
+     </task>
+     <task id="LOCAL-00001" summary="updated readme">
+       <created>1682349507126</created>
+@@ -203,7 +213,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1682359598059</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="Created all the classes and added the unitary test for the User class">
++      <created>1682715611817</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1682715611817</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
